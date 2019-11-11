@@ -1,0 +1,590 @@
+/* Start Global */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    height: 3000px;
+}
+
+/* End Global */
+
+/* Start my Framwork */
+
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.table {
+    height: 100%;
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.upper-case {
+    text-transform: uppercase;
+}
+
+.main-color {
+    color: #35CE8D;
+}
+
+.main-background {
+    background-color: #35CE8D;
+}
+
+.font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.font-w {
+    font-weight: 800;
+}
+
+.hidden, .hide {
+    display: none;
+}
+
+.overly {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 55, 61, .8);
+}
+
+/* End My framwork */
+
+/* Start Header */
+
+.header {
+    background: url('../images/header.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+
+.overly {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 55, 61, .8);
+}
+
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header .navbar .links {
+    float: right;
+}
+.header .navbar .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+.header .navbar .links i {
+    margin-left: 5px;
+}
+
+.header .intro h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.header .intro p {
+    margin: 10px 0 30px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.header .btn button {
+    padding: 10px 0;
+    width: 130px;
+    background: transparent;
+    border: 1px solid #35CE8D;
+    color: #FFF;
+    font-size: 12px;
+    border-radius: 10px;
+    margin: 0 8px;
+    outline: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.header .btn button:hover {
+    background-color: #35CE8D;
+    cursor: pointer;
+    border: 1px solid #35CE8D;
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.header .arrow i {
+    color: #FFF;
+    font-size: 25px;
+}
+
+.header .arrow i:hover {
+    color: #35CE8D;
+    font-size: 25px;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/* End Header */
+
+/*  Start features  */
+
+.features {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.features .box {
+    margin-top: 40px;
+    float: left;
+    width: 22%;
+    margin-right: 3%;
+    border: 1px solid #DDD;
+    padding: 15px;
+    box-shadow: 2px 5px 5px rgba(233, 226, 226, 0.75);
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.features .box:hover {
+    transform: translate(0, -17px);
+}
+
+.features .box:last-child {
+    margin-right: 0;
+}
+
+.features .center .box i {
+    color: #35CE8D;
+}
+
+.features .center .box h3 {
+    color: #666;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.features .center .box p {
+    color: #505050;
+    line-height: 2
+}
+
+/*  End features  */
+
+/*  Start Sub  */
+
+.sub {
+    background: url('../images/header.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #FFF;
+}
+
+.sub form {
+    padding: 100px 0;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
+
+.sub form input[type="search"] {
+    padding: 8px;
+    font-size: 13px;
+    width: 200px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.sub form button {
+    width: 150px;
+    padding: 8px;
+    font-size: 15px;
+    color: #FFF;
+    background: transparent;
+    border: 1px solid #35CE8D;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.sub form button:hover {
+    background: #35CE8D;
+    cursor: pointer;
+}
+
+/* End Sub  */
+
+/*  Start our work  */
+
+.our-work {
+    padding: 50px 0;
+}
+
+.our-work h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.our-work h2~p {
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.our-work .item-box {
+    overflow: hidden;
+}
+
+.our-work .item-box .item {
+    float: left;
+    width: 28%;
+    overflow: hidden;
+    margin-left: 3%;
+    margin-bottom: 24px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.our-work .item-box .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 300px;
+    background: rgba(53, 206, 141, .9);
+    color: #FFF;
+    display: none;
+}
+
+.our-work .item-box .item:hover .over {
+    transition: all 1s ease-in-out;
+    display: block;
+}
+
+.our-work .item .over h4 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.our-work .item .over p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.our-work .item .over button {
+    background: transparent;
+    border: 1px solid #FFF;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: #FFF;
+    padding: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.our-work .item .over button:hover {
+    background: #FFF;
+    border: none;
+    color: #35CE8D;
+    cursor: pointer;
+}
+
+.our-work .show-more {
+    background: transparent;
+    border: none;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color: #777;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.our-work .show-more:hover {
+    background: #35CE8D;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+/*  End our work  */
+
+/* Start testim */
+
+.testim {
+    background: url('../images/test.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.testim .client {
+    padding: 50px 0;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.testim .client img {
+    border-radius: 50%;
+}
+
+.testim .client p {
+    line-height: 2;
+    font-weight: normal;
+}
+
+.testim .client q {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.testim .fa-chevron-left, .testim .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.testim .fa-chevron-left:hover, .testim .fa-chevron-right:hover {
+    color: #35CE8D;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.testim .fa-chevron-left {
+    left: 0;
+}
+
+.testim .fa-chevron-right {
+    right: 0;
+}
+
+/*  End testim  */
+
+/*  Start our-team */
+
+.our-team {
+    padding: 40px 0;
+}
+
+.our-team h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.our-team .mainparg {
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #777;
+    font-size: 20px;
+}
+
+.our-team .team {
+    overflow: hidden;
+}
+
+.our-team .team .person {
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    color: #777;
+}
+
+.our-team .team .person:hover img {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.our-team .team .person:hover h3 {
+    color: #35CE8D;
+}
+
+.our-team .team .person:hover .fa-facebook {
+    color: #3b5999;
+}
+
+.our-team .team .person:hover .fa-twitter {
+    color: #55acee;
+}
+
+.our-team .team .person:hover .fa-google-plus {
+    color: #dd4b39;
+}
+
+.our-team .team .person img {
+    width: 265px;
+    height: 290px;
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.our-team .team .person p {
+    font-size: 18px;
+}
+
+/*  End our-team */
+
+/*  Start contact */
+
+.contact-us {
+    background: url('../images/test.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact-us .overly {
+    padding: 40px 0;
+    color: #FFF;
+}
+
+.contact-us h2 {
+    font-size: 35px;
+}
+
+.contact-us form {
+    width: 700px;
+    text-align: center;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.contact-us form input[type="email"], .contact-us form input[type="text"] {
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact-us form input[type="email"] {
+    float: left;
+}
+
+.contact-us form input[type="text"] {
+    float: right;
+}
+
+.contact-us form textarea {
+    margin-top: 30px;
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact-us form .info {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.contact-us form .info button {
+    float: left;
+    width: 150px;
+    padding: 8px;
+    font-size: 15px;
+    color: #FFF;
+    background: transparent;
+    border: 1px solid #35CE8D;
+    border-radius: 5px;
+    margin-left: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.contact-us form .info button:hover {
+    background: #35CE8D;
+    cursor: pointer;
+}
+
+.contact-us form .info .from-icons {
+    float: right;
+}
+
+.contact-us form .info .fa-facebook {
+    color: #3b5999;
+}
+
+.contact-us form .info .fa-twitter {
+    color: #55acee;
+}
+
+.contact-us form .info .fa-google-plus {
+    color: #dd4b39;
+}
+
+/* End contact */
+
+/*  Start Footer  */
+
+.footer {
+    background: #35CE8D;
+    color: #FFF;
+    padding: 40px 0;
+    overflow: hidden;
+}
+.footer .copy-right {
+    float: left;
+}
+.footer .design-by {
+    float: right;
+}
+/*  End Footer  */
